@@ -14,6 +14,12 @@ const destinations = {
         highlights: ["English Bay", "Indian Arm", "Bowen Island", "Gulf Islands"],
         image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=1000"
     },
+    nyc: {
+        title: "New York Harbor & Hudson",
+        description: "Sail past the Statue of Liberty, under the Brooklyn Bridge, and enjoy the breathtaking Manhattan skyline from the Hudson River.",
+        highlights: ["Statue of Liberty", "Brooklyn Bridge", "Hudson River", "The Hamptons"],
+        image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=1000"
+    },
     toronto: {
         title: "Toronto & Lake Ontario",
         description: "Cruise the iconic Toronto skyline from the water, explore the Toronto Islands lagoons, or head to Niagara-on-the-Lake.",
@@ -25,12 +31,11 @@ const destinations = {
 export default function Destinations({ currentCity }) {
     // Default to Miami if city not found, or handle gracefully
     const city = currentCity.toLowerCase();
-    // Map 'nyc' to something or just don't show if not in data, simplified for this demo:
     const data = destinations[city] || destinations.miami;
 
     // Use a lighter theme approach
     return (
-        <section className="py-24 px-6 md:px-12 lg:px-24 bg-white text-navy">
+        <section id="destinations" className="py-24 px-6 md:px-12 lg:px-24 bg-white text-navy">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
                 <motion.div
                     initial={{ opacity: 0, x: -20 }}
