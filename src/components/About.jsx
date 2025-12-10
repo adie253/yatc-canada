@@ -13,7 +13,7 @@ export default function About() {
                 >
                     <div className="relative">
                         <img
-                            src="https://images.unsplash.com/photo-1569263979104-d336814bb9dc?auto=format&fit=crop&q=80&w=1000"
+                            src="https://www.26northyachts.com/wp-content/uploads/2023/04/Charter-MNAGEMENT-1024x683.jpg"
                             alt="Yacht Lifestyle"
                             className="rounded-2xl shadow-2xl relative z-10"
                         />
