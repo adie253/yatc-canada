@@ -1,0 +1,114 @@
+{
+    "miami": {
+        "name": "Miami",
+        "highlights": [
+            "Biscayne Bay",
+            "Star Island",
+            "Nixon Sandbar"
+        ],
+        "description": "Cruise the crystal blue waters of Biscayne Bay. celebrity spotting on Star Island, and anchor for a sunset toast with the Miami skyline as your backdrop.",
+        "bg_color": "from-blue-900 to-teal-800",
+        "itinerary": [
+            {
+                "time": "10:00 AM",
+                "activity": "Depart from Miami Beach Marina"
+            },
+            {
+                "time": "11:30 AM",
+                "activity": "Anchor at Nixon Sandbar for swimming"
+            },
+            {
+                "time": "1:00 PM",
+                "activity": "Gourmet lunch onboard with skyline views"
+            },
+            {
+                "time": "3:00 PM",
+                "activity": "Cruise past celebrity homes on Star Island"
+            }
+        ]
+    },
+    "nyc": {
+        "name": "New York City",
+        "highlights": [
+            "Statue of Liberty",
+            "Brooklyn Bridge",
+            "Hudson River"
+        ],
+        "description": "Experience the grandeur of Manhattan from the water. Sail past the Lady Liberty and under the Brooklyn Bridge for an unforgettable urban escape.",
+        "bg_color": "from-slate-900 to-indigo-900",
+        "itinerary": [
+            {
+                "time": "4:00 PM",
+                "activity": "Board at Chelsea Piers"
+            },
+            {
+                "time": "5:00 PM",
+                "activity": "Close-up views of Statue of Liberty"
+            },
+            {
+                "time": "6:30 PM",
+                "activity": "Sunset champagne toast under Brooklyn Bridge"
+            },
+            {
+                "time": "8:00 PM",
+                "activity": "Night skyline cruise back to harbor"
+            }
+        ]
+    },
+    "vancouver": {
+        "name": "Vancouver",
+        "highlights": [
+            "English Bay",
+            "Deep Cove",
+            "Granville Island"
+        ],
+        "description": "Where mountains meet the sea. Explore the serene waters of English Bay and the fjord-like beauty of Indian Arm in ultimate luxury.",
+        "bg_color": "from-emerald-900 to-cyan-900",
+        "itinerary": [
+            {
+                "time": "09:00 AM",
+                "activity": "Departure from Coal Harbour"
+            },
+            {
+                "time": "11:00 AM",
+                "activity": "Wildlife spotting in Indian Arm"
+            },
+            {
+                "time": "1:00 PM",
+                "activity": "Seafood lunch near Granite Waterfalls"
+            },
+            {
+                "time": "3:30 PM",
+                "activity": "Relaxing cruise back through English Bay"
+            }
+        ]
+    },
+    "toronto": {
+        "name": "Toronto",
+        "highlights": [
+            "Toronto Islands",
+            "Scarborough Bluffs",
+            "Inner Harbour"
+        ],
+        "description": "Escape the city buzz. Navigate the calm lagoons of the Toronto Islands and enjoy panoramic views of the CN Tower and city lights.",
+        "bg_color": "from-indigo-900 to-purple-900",
+        "itinerary": [
+            {
+                "time": "2:00 PM",
+                "activity": "Set sail from Harbourfront Centre"
+            },
+            {
+                "time": "3:00 PM",
+                "activity": "Anchor at Hanlan's Point for beach vibes"
+            },
+            {
+                "time": "5:00 PM",
+                "activity": "Cruise along the Scarborough Bluffs"
+            },
+            {
+                "time": "7:00 PM",
+                "activity": "Sunset dinner with CN Tower views"
+            }
+        ]
+    }
+}
